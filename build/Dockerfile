@@ -10,6 +10,6 @@ RUN wget --no-check-certificate https://releases.hashicorp.com/consul-template/0
   chmod +x /usr/sbin/consul-template && \
   rm -f /tmp/consul-tpl.tgz
 
-CMD ["rails","server"]
+CMD ["npm","start"]
 
 EXPOSE 3000
